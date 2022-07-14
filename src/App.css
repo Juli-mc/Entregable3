@@ -1,0 +1,129 @@
+
+
+.App {
+  text-align: center;
+  font-family: Nunito, sans-serif;
+}
+
+.App{
+  background-color: #615edb;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  top: 185px;
+}
+
+.searcher{
+  width: 30%;
+  padding: 20px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 65px;
+  height: 58px;
+  border: 5px solid #33c3ef;
+  background: #98ef54;
+  text-align: center;
+  color: #33c3ef;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.wrap{
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+}
+
+.Info{
+  display: flex;
+  background-color: #CEE5D0;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 160px;
+  border-radius: 10px;
+  padding: 35px;
+  gap: 65px;
+}
+
+.Info p{
+  font-size: 20px;
+  font-style: italic;
+  background-color: transparent;
+}
+
+.Name{
+  text-align: left;
+}
+
+.Type{
+  text-align: left;
+}
+
+.Dimension{
+  text-align: left;
+}
+
+.Residents{
+  text-align: left;
+}
+
+.Input{
+  margin: 25px;
+  margin-bottom: 60px;
+
+}
+
+.Card{
+  border: 5px solid;
+  border-color: black;
+  display: inline-flex;
+  text-align: left;
+  margin: 23px;
+  width: 40%;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #C8B6E2;
+}
+
+.Characterinfo h2, p{
+  margin: 0px;
+
+}
+
+.Card img{
+  width: 50%;
+  border-radius: 15px;
+  border: 15px;
+  border-color: #FFE5B4;
+  margin-right: 20px;
+ box-shadow: -6px -1px 10px 9px black;
+}
+
+.None{
+  
+  padding: 50px;
+}
