@@ -31,6 +31,7 @@ function App() {
     numbers.push(i)
   }
   let residental = data.residents
+  const reset = () => {setSearchvalue("")}
 
   const [suggestions, setSuggestions] = useState([])
   useEffect(() => {
@@ -48,6 +49,8 @@ function App() {
   const selectLocation = (suggestion) => {
     setData(suggestion)
   }
+
+  
 
   return (
     <div className="App">
