@@ -1,4 +1,6 @@
-
+body{
+  background-color: #615edb;
+}
 
 .App {
   text-align: center;
@@ -7,6 +9,14 @@
 
 .App{
   background-color: #615edb;
+}
+
+.Header{
+  width: 100%;
+  height: 600px;
+  background-image: url(./img/title.gif);
+  background-size: cover;
+  background-position: center;
 }
 
 .search {
@@ -101,7 +111,7 @@
   display: inline-flex;
   text-align: left;
   margin: 23px;
-  width: 40%;
+  width: 30%;
   padding-right: 15px;
   padding-top: 0px;
   padding-bottom: 3px;
@@ -126,4 +136,22 @@
 .None{
   
   padding: 50px;
+}
+
+.prev, .next{
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #98ef54;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.numbers{
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #00B4CC;
+  padding: 5px;
+  cursor: pointer;
 }

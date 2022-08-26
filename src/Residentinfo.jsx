@@ -10,9 +10,8 @@ const Residentinfo = ({characterUrl}) => {
             axios.get(characterUrl)
             .then(res => setCharacterinfo(res.data))
         }, [])
-
         return(
-        <div className='Card'>
+        <div key={characterInfo.id} className='Card'>
             <img src={characterInfo.image} alt="" srcset="" />
             
             <div className='Characterinfo'>
